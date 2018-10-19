@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LinkLive</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="forgot_pwd">忘记密码</string>
+    <string name="register">用户注册</string>
+    <string name="action_login">登陆</string>
+    <string name="about_text_copyright">一款优秀的社交软件，由五名优秀的在校大学生的精英团队工匠打造，为用户带来一流的使用体验，有效解决了用户在生活中遇到的困难。若在使用过程中有任何疑问，欢迎致电110，或者联系我们15112970246，谢谢你们的支持。我们是OnMars团队！</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_sign_up">注册</string>
+    <string name="register_text_username">用户名</string>
+    <string name="register_text_phone">手机号码</string>
+    <string name="verify_code">验证码</string>
+    <string name="action_getcode">获取验证码</string>
+    <string name="register_text_password">登陆密码</string>
+    <string name="register_text_email">邮箱地址</string>
+    <string name="hint_phone">请输入绑定Link的手机账号</string>
+    <string name="action_next">下一步</string>
+    <string name="hint_birth">生日</string>
+    <string name="hint_work">工作</string>
+    <string name="hint_email">邮箱地址</string>
+    <string name="hint_sign">个性签名</string>
+    <string name="hint_location">现居</string>
+    <string name="location">广东轻工职业技术学院</string>
+    <string name="birth">1996.03.21</string>
+    <string name="work">学生</string>
+    <string name="sign">所有的\"你好\"都会让我欣喜一整天</string>
+    <string name="hint_nickname">昵称</string>
+    <string name="hint_avatar">头像</string>
+    <string name="hint_sex">性别</string>
+    <string name="default_sex">男</string>
+    <string name="default_work">程序员</string>
+    <string name="default_nickname">度</string>
+    <string name="default_email">love@163.com</string>
+    <string name="default_username">Turing</string>
+    <string name="default_address">广东 佛山</string>
+</resources>

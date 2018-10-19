@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/userinfo_header"
+        android:orientation="vertical"
+        android:background="@drawable/img_start">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/avatar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16.5dp"
+            android:background="@drawable/ic_account_circle_white_48dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nickname"
+                android:text="nickname"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/container_detail"
+        android:layout_below="@id/userinfo_header"
+        android:layout_marginStart="36dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_detail_margin">
+
+            <TextView
+                android:layout_width="@dimen/profile_detail_text_width"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_birth"
+                android:textSize="@dimen/text_size_14sp"
+                android:layout_marginStart="@dimen/profile_detail_item_margin"
+                android:layout_marginEnd="@dimen/profile_detail_item_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/birth"
+                tools:text="@string/birth"
+                android:textSize="@dimen/text_size_14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_detail_margin">
+
+            <TextView
+                android:layout_width="@dimen/profile_detail_text_width"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_location"
+                android:textSize="@dimen/text_size_14sp"
+                android:layout_marginStart="@dimen/profile_detail_item_margin"
+                android:layout_marginEnd="@dimen/profile_detail_item_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/location"
+                tools:text="@string/location"
+                android:textSize="@dimen/text_size_14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_detail_margin">
+
+            <TextView
+                android:layout_width="@dimen/profile_detail_text_width"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_work"
+                android:textSize="@dimen/text_size_14sp"
+                android:layout_marginStart="@dimen/profile_detail_item_margin"
+                android:layout_marginEnd="@dimen/profile_detail_item_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/work"
+                tools:text="@string/work"
+                android:textSize="@dimen/text_size_14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_detail_margin">
+
+            <TextView
+                android:layout_width="@dimen/profile_detail_text_width"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_email"
+                android:textSize="@dimen/text_size_14sp"
+                android:layout_marginStart="@dimen/profile_detail_item_margin"
+                android:layout_marginEnd="@dimen/profile_detail_item_margin"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                tools:text="love@163.com"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size_14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_detail_margin">
+
+            <TextView
+                android:layout_width="@dimen/profile_detail_text_width"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_sign"
+                android:textSize="@dimen/text_size_14sp"
+                android:layout_marginStart="@dimen/profile_detail_item_margin"
+                android:layout_marginEnd="@dimen/profile_detail_item_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sign"
+                tools:text="@string/sign"
+                android:textSize="@dimen/text_size_14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/curr_user_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_popup_attachment_rename"
+        app:backgroundTint="@color/yellow"
+        android:visibility="gone"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/other_user_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_send_white_48dp"
+        app:backgroundTint="@color/yellow"
+        android:visibility="gone"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"/>
+
+
+    <!--android:src="@android:drawable/ic_dialog_email"-->
+</RelativeLayout>
