@@ -6,7 +6,7 @@ import android.view.View;
 import cn.link.linklive.R;
 
 
-public class MessageFragment extends BaseFragment {
+public class MessageFragment extends BaseFragment implements View.OnClickListener {
 
 
     public MessageFragment() {

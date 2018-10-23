@@ -31,4 +31,26 @@
     <string name="default_email">love@163.com</string>
     <string name="default_username">Turing</string>
     <string name="default_address">广东 佛山</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="choose_province">选择省份</string>
+    <string name="choose_city">选择城市</string>
+    <string name="choose_county">选择区县</string>
+    <string name="title">纵横天下</string>
+    <string name="tab_map">地图</string>
+    <string name="tab_group">群组</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_person">我</string>
+    <string name="toast_exit">再按一次将退出程序</string>
+    <string name="add_friend">添加好友</string>
+    <string name="more">更多</string>
+    <string name="person_nickname">度</string>
+    <string name="person_email">love@163.com</string>
+    <string name="person_setting">设置</string>
+    <string name="person_about">关于我们</string>
+    <string name="person_plugin">插件</string>
+    <string name="person_feedback">意见反馈</string>
+    <string name="person_draft">草稿箱</string>
+    <string name="person_share">分享给好友</string>
+    <string name="person_chatting">秘密空间</string>
 </resources>

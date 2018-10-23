@@ -31,7 +31,6 @@ public class ProfileActivity extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.home:
-
             default:
                 this.finish();
                 return super.onOptionsItemSelected(item);

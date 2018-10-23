@@ -4,9 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
+
+import cn.link.linklive.R;
 
 public abstract class BaseActivity extends AppCompatActivity{
 
@@ -17,6 +21,8 @@ public abstract class BaseActivity extends AppCompatActivity{
     /***是否显示标题栏*/
     private  boolean isshowstate = true;
     public Context mContext;
+
+    private long exitTime = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,6 +126,20 @@ public abstract class BaseActivity extends AppCompatActivity{
         }
         lastclick=System.currentTimeMillis();
         return true;
+    }
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if ((System.currentTimeMillis() - exitTime) > 2000) {
+                Toast.makeText(BaseActivity.this, getString(R.string.toast_exit),
+                        Toast.LENGTH_SHORT).show();
+                exitTime = System.currentTimeMillis();
+            } else {
+                ActivityManager.finishAll();
+            }
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     @Override

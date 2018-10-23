@@ -6,7 +6,7 @@ import android.view.View;
 import cn.link.linklive.R;
 
 
-public class GroupFragment extends BaseFragment{
+public class GroupFragment extends BaseFragment implements View.OnClickListener{
 
 
     public GroupFragment() {

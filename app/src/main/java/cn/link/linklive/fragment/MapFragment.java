@@ -6,7 +6,7 @@ import android.view.View;
 import cn.link.linklive.R;
 
 
-public class MapFragment extends BaseFragment {
+public class MapFragment extends BaseFragment implements View.OnClickListener{
 
     public MapFragment() {
 

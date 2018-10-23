@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import cn.link.linklive.activity.BaseActivity;
 
 
-public abstract class BaseFragment  extends Fragment implements View.OnClickListener {
+public abstract class BaseFragment extends Fragment{
     protected Context mContext;
     /**
      * 当fragment与activity发生关联时调用
@@ -58,7 +58,7 @@ public abstract class BaseFragment  extends Fragment implements View.OnClickList
      * @param <T>
      * @return
      */
-    protected <T extends View> T fvbi(int resId){
+    protected <T extends View> T bind(int resId){
         return (T) getView().findViewById(resId);
     }
     /**

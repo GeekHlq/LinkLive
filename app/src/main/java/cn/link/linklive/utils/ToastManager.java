@@ -12,7 +12,7 @@ import cn.link.linklive.widget.CustomToast;
  */ 
 public class ToastManager {
 
-		protected static final String TAG = "AppToast";
+		protected static final String TAG = "LinkLive";
 		public static CustomToast toast;
 		/**
 		 * 信息提示
