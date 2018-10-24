@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.baidu.mapapi.SDKInitializer;
+
 import cn.link.linklive.activity.BaseActivity;
 
 
@@ -26,6 +28,7 @@ public abstract class BaseFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        SDKInitializer.initialize(getActivity().getApplicationContext());//初始化
         View view = inflater.inflate(setLayout(),null);
         return view;
     }

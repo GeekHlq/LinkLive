@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- 语言设置-->
+        <LinearLayout
+            android:id="@+id/setting_language"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_language"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_language"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 字体大小-->
+        <LinearLayout
+            android:id="@+id/setting_wordSize"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_wordSize"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_wordSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_word_size"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 新消息提醒-->
+        <LinearLayout
+            android:id="@+id/setting_news"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_news"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_news"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+
+        <!-- 隐私-->
+        <LinearLayout
+            android:id="@+id/setting_secret"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_sceret"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_secret"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_secret"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 勿扰模式-->
+        <LinearLayout
+            android:id="@+id/setting_"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_undisturb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_undisturb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_undisturb"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 账号设置-->
+        <LinearLayout
+            android:id="@+id/setting_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_account"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_account"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 通用-->
+        <LinearLayout
+            android:id="@+id/setting_general"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_general"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_general"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_general"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+        <!-- 切换账号-->
+        <LinearLayout
+            android:id="@+id/setting_switchAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorTitle"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_setting_switchAccount"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/img_start" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_switchAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_switchAccount"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorBg"
+            />
+
+
+        <Button
+            android:id="@+id/register_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/register_bg"
+            android:text="@string/action_exit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_14sp"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

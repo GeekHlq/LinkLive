@@ -56,4 +56,13 @@
     <string name="hint_search">搜索</string>
     <string name="txt_msg_in">在只有凌晨才不会太拥挤的城市，我披星戴月独自穿行，窗外的一点一滴在此时此刻，才没那么急功近利，岁月平添了我的愁，混杂无形又巨大的压力，这是不是我生命中最难熬的时光。</string>
     <string name="txt_msg_out">想把自己活成一场梦,一首歌一场电影，就算会半梦半醒就算压不上韵,却还是期待所有故事结局。</string>
+    <string name="setting_language">语言设置</string>
+    <string name="setting_word_size">字体大小</string>
+    <string name="setting_news">新消息提醒</string>
+    <string name="setting_switchAccount">切换账号</string>
+    <string name="action_exit">退出</string>
+    <string name="setting_secret">隐私</string>
+    <string name="setting_undisturb">勿扰模式</string>
+    <string name="setting_account">账号设置</string>
+    <string name="setting_general">通用</string>
 </resources>
