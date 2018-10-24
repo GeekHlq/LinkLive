@@ -83,6 +83,7 @@ public abstract class BaseActivity extends AppCompatActivity{
         startActivityForResult(intent, requestCode);
     }
 
+
     /** * 隐藏软件盘 */
     public void hideSoftInput() {
         InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);

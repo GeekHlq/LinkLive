@@ -59,5 +59,8 @@
     <string name="person_draft">草稿箱</string>
     <string name="person_share">分享给好友</string>
     <string name="person_chatting">秘密空间</string>
+    <string name="hint_search">搜索</string>
+    <string name="txt_msg_in">在只有凌晨才不会太拥挤的城市，我披星戴月独自穿行，窗外的一点一滴在此时此刻，才没那么急功近利，岁月平添了我的愁，混杂无形又巨大的压力，这是不是我生命中最难熬的时光。</string>
+    <string name="txt_msg_out">想把自己活成一场梦,一首歌一场电影，就算会半梦半醒就算压不上韵,却还是期待所有故事结局。</string>
 
 </resources>
